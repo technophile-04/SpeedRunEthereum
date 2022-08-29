@@ -45,6 +45,7 @@ export const dummyTreeDataStructure = [
             children: [],
           },
         ],
+        // children: [],
       },
       {
         id: "defiTrack",
@@ -86,13 +87,11 @@ function TechTree() {
       <SkillTreeGroup theme={techTreeTheme}>
         {() => {
           return (
-            <>
-              <SkillTree
-                title="Learn how to build on Ethereum; the superpowers and the gotchas"
-                treeId="mainTechTree"
-                data={dummyTreeDataStructure}
-              />
-            </>
+            <SkillTree
+              title="Learn how to build on Ethereum; the superpowers and the gotchas"
+              treeId="mainTechTree"
+              data={dummyTreeDataStructure}
+            />
           );
         }}
       </SkillTreeGroup>

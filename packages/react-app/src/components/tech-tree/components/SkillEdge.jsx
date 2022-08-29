@@ -32,7 +32,7 @@ function SkillEdge(props) {
 
   return (
     <div style={{ height: "56px" }}>
-      <UpperAngledLine state={state} direction={direction} />
+      {/* <UpperAngledLine state={state} direction={direction} /> */}
       <div style={{ position: "relative" }}>
         <MiddleAngledLine
           parentPosition={parentPosition}
