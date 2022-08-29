@@ -1,6 +1,6 @@
 const techTreeTheme = {
-  border: "4px solid rgb(127,127,127)",
-  treeBackgroundColor: "rgba(60, 60, 60, 0.8)",
+  border: "none",
+  treeBackgroundColor: "rgba(60, 60, 60, 0.0)",
   heading: {
     font: "Homenaje, Impact, sans-serif",
   },

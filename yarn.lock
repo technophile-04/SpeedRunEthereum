@@ -18521,6 +18521,11 @@ react-markdown@^7.1.0:
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
 
+react-parallax-tilt@^1.7.60:
+  version "1.7.60"
+  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.7.60.tgz#48f090fda92f1c07f1e624cc9bf1e68ace51e236"
+  integrity sha512-bIGxMdIQVcSnfsJ+ZNI7QrLUD98E1XlAmDeQmwxkFw5RWgwYgvp43eRw+N19UoS5sunTZ88CoP82o0NqV4vucw==
+
 react-qr-reader@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/react-qr-reader/-/react-qr-reader-2.2.1.tgz#dc89046d1c1a1da837a683dd970de5926817d55b"

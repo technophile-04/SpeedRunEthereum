@@ -55,6 +55,7 @@
     "react-blockies": "^1.4.1",
     "react-dom": "^16.14.0",
     "react-markdown": "^7.1.0",
+    "react-parallax-tilt": "^1.7.60",
     "react-qr-reader": "^2.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
