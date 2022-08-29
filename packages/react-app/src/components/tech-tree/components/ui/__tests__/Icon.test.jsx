@@ -1,0 +1,21 @@
+import React from 'react';
+import { render } from '@testing-library/react';
+import Icon from '../Icon';
+import { ThemeProvider } from 'styled-components';
+import defaultTheme from '../../../theme';
+function renderComponent(props) {
+    return render(<ThemeProvider theme={defaultTheme}>
+      <Icon src={props.src} title={props.title} containerWidth={props.containerWidth}/>
+    </ThemeProvider>);
+}
+describe('Icon component', () => {
+    it('should render the correct icon', () => {
+        const { queryByAltText } = renderComponent({
+            src: './',
+            title: 'test icon.',
+            containerWidth: 20,
+        });
+        expect(queryByAltText('test icon.')).toBeTruthy();
+    });
+});
+//# sourceMappingURL=Icon.test.jsx.map

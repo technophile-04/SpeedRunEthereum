@@ -20,6 +20,7 @@ import {
 import { USER_ROLES } from "./helpers/constants";
 import { providerPromiseWrapper } from "./helpers/blockchainProviders";
 import BlockchainProvidersContext from "./contexts/blockchainProvidersContext";
+import TechTree from "./views/TechTree";
 
 // 😬 Sorry for all the console logging
 const DEBUG = true;
@@ -177,6 +178,11 @@ function App() {
           <Route exact path="/">
             <HomeView connectedBuilder={connectedBuilder} userProvider={userProvider} />
           </Route>
+
+          <Route exact path="/tech-tree">
+            <TechTree />
+          </Route>
+
           <Route exact path="/portfolio">
             {address && <Redirect to={"/builders/" + address} />}
           </Route>
