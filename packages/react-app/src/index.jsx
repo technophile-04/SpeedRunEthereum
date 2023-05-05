@@ -11,14 +11,16 @@ import App from "./App";
 
 import translationEn from "./lang/en.json";
 import translationEs from "./lang/es.json";
+import translationHi from "./lang/hi.json";
 
 const translations = {
   en: translationEn,
   es: translationEs,
+  hi: translationHi,
 };
 
 // TODO: change from ui
-const userLocale = "en";
+const userLocale = "hi";
 
 const Root = () => {
   const [locale, setLocale] = useState(userLocale);
