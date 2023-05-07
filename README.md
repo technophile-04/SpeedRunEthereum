@@ -6,8 +6,6 @@ Speed Run Ethereum aims to provide a structured learning path for onboarding dev
 
 [🏃‍♀️Ethereum Dev Speed Run](https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c) with a framework for submitting challenges, get feedback from ethereum builders, and in the process unlocking new challenges and prof of completion.
 
-Workflow test
-
 ---
 
 ## Project setup
